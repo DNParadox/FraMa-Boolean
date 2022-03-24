@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    position: relative;
+}
+main {
+    background-image: url(background.jpg);
+    background-size: cover;
+    position: relative;
+    color: white;
+    width: 100%;
+}
+
+#square {
+    
+    margin-bottom: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    border-radius: 10px;
+}
+#logo {
+    width: 20%;
+}
+
+#logo, #subtext {
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+    display: block;
+}
+
+#subtext {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    color: limegreen;
+}
+
+#squaregreen {
+    background: limegreen;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10% ; 
+    height: 40px;
+  
+    position: relative;
+}
+
+#submit {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#contenitore {
+    padding-left: 10%;
+    
+}
+
+#squareorange {
+    background: orange;
+    width: 200px;
+    height: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+#squaregreen2 {
+    background: green;
+    width: 250px;
+    height: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+
+#squarered {
+    background: red;
+    width: 50px;
+    height: 10px;
+    position: relative;
+    border-radius: 10px;
+}
